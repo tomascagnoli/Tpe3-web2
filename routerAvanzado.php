@@ -28,7 +28,6 @@ $router->addRoute('albumes/paginar/:PAGINA/:LIMITE', 'GET', 'controller', 'getAl
 $router->addRoute('albumes/:ID', 'GET', 'controller', 'getAlbumes');
 $router->addRoute('albumes', 'POST', 'controller', 'addAlbum');
 $router->addRoute('albumes/:ID', 'PUT', 'controller', 'updateAlbum');
-$router->addRoute('albumes/:ID', 'PUT', 'controller', 'deleteAlbum');
 $router->addRoute('albumes/:ID', 'DELETE', 'controller', 'deleteAlbum');
 
 // rutea
