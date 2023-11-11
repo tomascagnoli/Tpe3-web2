@@ -16,6 +16,7 @@ $router = new Router();
 // define la tabla de ruteo
 $router->addRoute('artistas', 'GET', 'controller', 'getArtistas');
 $router->addRoute('artistas/:COLUMNA/:ORDEN', 'GET', 'controller', 'getArtistas');
+$router->addRoute('artistas/paginar/:PAGINA/:LIMITE', 'GET', 'controller', 'getArtistasPaginar');
 $router->addRoute('artistas/:ID', 'GET', 'controller', 'getArtista');
 $router->addRoute('artistas', 'POST', 'controller', 'addArtista');
 $router->addRoute('artistas/:ID', 'PUT', 'controller', 'updateArtista');

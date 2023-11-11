@@ -39,6 +39,20 @@ class controller {
         }
     }
 
+    function getArtistasPaginar($params){
+        if(!isset($params[":PAGINA"]) && !isset($params[":LIMITE"])){
+            $this->view->response("Campos vacios", 404);
+            return; 
+        } else{
+            $artistas= $this->model->getArtistasPaginar($params[":PAGINA"], $params[":LIMITE"]);
+            if(!empty($artistas)) {
+                return $this->view->response($artistas,200);
+            }else{
+                return $this->view->response($artistas,404);
+            } 
+        }  
+    }
+
     function getArtista($params) {
         $artista = $this->model->getArtista($params[":ID"]);
         if(!empty($artista)) {

@@ -21,6 +21,13 @@ class model{
         $artistas = $consulta->fetchAll(PDO::FETCH_OBJ);
         return $artistas;
     }
+
+    function getArtistasPaginar($pagina, $limite){
+        $consulta = $this->db->prepare('SELECT * FROM artistas LIMIT ' . $limite . ' OFFSET ' . $pagina);
+        $consulta->execute();
+        $artistas= $consulta->fetchAll(PDO::FETCH_OBJ);
+        return $artistas;
+    }
     
     function getAlbumesByColumnaOrden($columna, $orden){
         $consulta = $this->db->prepare ('SELECT * FROM albumes ORDER BY' . ' ' . $columna . ' ' . $orden);
