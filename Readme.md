@@ -176,8 +176,8 @@
 
 ### Parámetros
 
-**PAGINA (obligatorio):** `Número de la página que se desea obtener`.
-**LIMITE (obligatorio):** `Número de resultados por página`.
+- **PAGINA (obligatorio):** `Número de la página que se desea obtener`.
+- **LIMITE (obligatorio):** `Número de resultados por página`.
 
 ### Ejemplo de Uso
 
