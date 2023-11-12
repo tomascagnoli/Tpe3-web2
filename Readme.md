@@ -10,7 +10,7 @@
 
 **Método:** `GET`
 
-**Uso:** `http://biblioteca_musical.com/api/artistas`
+**Uso:** `http://ubicacionDelArchivo/api/artistas`
 
 **Ejemplo de Respuesta (JSON):**
 ```json
@@ -35,7 +35,7 @@
 
 **Método:** `GET`
 
-**Uso:** `http://biblioteca_musical/api/artistas/1`
+**Uso:** `http://ubicacionDelArchivo/api/artistas/1`
 
 **Ejemplo de Respuesta (JSON):**
 
@@ -53,7 +53,7 @@
 
 **Método:** `POST`
 
-**Uso:** `http://biblioteca_musical/api/artistas`
+**Uso:** `http://ubicacionDelArchivo/api/artistas`
 
 **Ejemplo de Datos del Cuerpo (JSON):**
 ```json
@@ -70,7 +70,7 @@
 
 **Método:** `PUT`
 
-**Uso:**  `http://biblioteca_musical/api/artistas/1`
+**Uso:**  `http://ubicacionDelArchivo/api/artistas/1`
 
 **Ejemplo de Datos del Cuerpo (JSON):**
 
@@ -88,7 +88,7 @@
 
 **Método:** `DELETE`
 
-**Uso:** `http://biblioteca_musical/api/artistas/1`
+**Uso:** `http://ubicacionDelArchivo/api/artistas/1`
 
 **Ejemplo de Datos del Cuerpo (JSON):**
 
@@ -103,7 +103,7 @@
 
 **Método:** `GET`
 
-**Uso:** `http://biblioteca_musical.com/api/albumes`
+**Uso:** `http://ubicacionDelArchivo/api/albumes`
 
 **Ejemplo de Respuesta (JSON):**
 
@@ -132,7 +132,7 @@
 
 **Método:** `GET`
 
-**Uso:** `http://biblioteca_musical/api/albumes/1` 
+**Uso:** `http://ubicacionDelArchivo/api/albumes/1` 
 
 **Ejemplo de Respuesta (JSON):**
 
@@ -151,7 +151,7 @@
 
 **Método:** `DELETE`
 
-**Uso:** `http://biblioteca_musical/api/albumes/1`
+**Uso:** `http://ubicacionDelArchivo/api/albumes/1`
 
 **Ejemplo de Respuesta (JSON):**
 
@@ -181,7 +181,7 @@
 
 ### Ejemplo de Uso
 
-- `GET http://biblioteca_musical.com/artistas/paginar/1/10`
+- `GET http://ubicacionDelArchivo.com/artistas/paginar/1/10`
 
 **Ejemplo de Respuesta (JSON):**
 
